@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+     
+        
+}
+
+
+.navbar {
+    background-color: #000;
+ 
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    
+
+}
+
+
+.name-icons i {
+    font-size: 4rem; 
+    margin: 5px;
+    color: #819e0d;
+ transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.name-icons i:hover {
+    transform: scale(1.2);
+    color: #140d0f;
+
+}
+.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+  .mycontainer div {
+    width:33%;
+    float:left;
+    
+  }
+
+
+
+
+
